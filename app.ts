@@ -1,6 +1,6 @@
 // import { toLowerCase } from ".";
 
-// console.log(toLowerCase("Sanjay"));
+// console.log(toLowerCase("maghil"));
 
 let age: number;
 
@@ -11,7 +11,7 @@ let isMarried: boolean = true;
 
 // qualification.replace("t","q") // qrue
 
-let anyValue: any = "Sanjay";
+let anyValue: any = "maghil";
 
 anyValue = 10;
 
@@ -21,7 +21,7 @@ anyValue.toFixed()
 // compile time error will not show for any method
 qualification.replace(anyValue, "s")
 
-let unknownType: unknown = "Sanjay";
+let unknownType: unknown = "maghil";
 
 let support = unknownType as number;
 
@@ -96,7 +96,7 @@ const person: IPerson = {
             isRemote: false
         },
         {
-            company: "Hyrrokkin",
+            company: "Hero",
             salary: 21000,
             location: "Coimbatore",
             title: "FED"
@@ -176,7 +176,7 @@ const sasiDetails: IEmployee = {
             isRemote: false
         },
         {
-            company: "Hyrrokkin",
+            company: "Hero",
             salary: 21000,
             location: "Coimbatore",
             title: "FED"
@@ -261,7 +261,7 @@ let obj = [
                 "key-two": [
                     [
                         {
-                            name: "sanjay",
+                            name: "maghil",
                         },
                         {
                             "key-three": [
@@ -328,7 +328,7 @@ const students: IStudents[] = [
         ]
     },
     {
-        name: "Sanjay bharathi",
+        name: "maghil bharathi",
         age: 25,
         gender: Gender.MALE,
         medium: "Tamil",
@@ -402,7 +402,7 @@ const electionResult: unknown = true;
 const electionResultCopy = <boolean>electionResult;
 
 // Partial makes all properties as optional
-const sanjayJob: Partial<IJob> = {
+const maghilJob: Partial<IJob> = {
     company: "IK",
     location: "BAN",
     salary: 21,
